@@ -14,6 +14,7 @@ npm i @cloudcmd/read-files-sync
 
 ```js
 const readFilesSync = require('@cloudcmd/read-files-sync');
+
 readFilesSync('./fixture', 'utf8');
 // returns
 {
