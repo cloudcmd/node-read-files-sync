@@ -38,7 +38,7 @@ MIT
 [CoverageIMGURL]:           https://coveralls.io/repos/cloudcmd/node-read-files-sync/badge.svg?branch=master&service=github
 [NPMURL]:                   https://npmjs.org/package/@cloudcmd/read-files-sync "npm"
 [BuildStatusURL]:           https://travis-ci.org/cloudcmd/node-read-files-sync  "Build Status"
-[DependencyStatusURL]:      https://gemnasium.com/coderaiser/@cloudcmd/read-files-sync "Dependency Status"
+[DependencyStatusURL]:      https://gemnasium.com/cloudcmd/node-read-files-sync "Dependency Status"
 [LicenseURL]:               https://tldrlegal.com/license/mit-license "MIT License"
 [CoverageURL]:              https://coveralls.io/github/cloudcmd/node-read-files-sync?branch=master
 
