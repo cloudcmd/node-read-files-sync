@@ -1,0 +1,42 @@
+{
+  "name": "@cloudcmd/read-files-sync",
+  "version": "1.0.0",
+  "author": "coderaiser <mnemonic.enemy@gmail.com> (https://github.com/coderaiser)",
+  "description": "synchronously read files from a directory",
+  "homepage": "http://github.com/cloudcmd/node-read-files-sync",
+  "main": "lib/read-files-sync.js",
+  "keywords": [
+    "get",
+    "pull",
+    "body",
+    "data",
+    "stream"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cloudcmd/read-files-sync.git"
+  },
+  "scripts": {
+    "test": "tape test/*.js",
+    "lint": "eslint lib test",
+    "watch:test": "npm run watcher -- \"npm test\"",
+    "watcher": "nodemon -w lib -w test -x",
+    "coverage": "nyc npm test",
+    "report": "nyc report --reporter=text-lcov | coveralls"
+  },
+  "dependencies": {
+    "currify": "^2.0.6",
+    "mkobject": "^1.0.2"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "coveralls": "^3.0.0",
+    "eslint": "^4.0.0",
+    "nodemon": "^1.11.0",
+    "nyc": "^11.0.2",
+    "tape": "^4.2.0"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  }
+}
