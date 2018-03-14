@@ -44,7 +44,7 @@ readFilesSync('./fixture', ['a'], 'utf8');
 ## License
 MIT
 
-[NPMIMGURL]:                https://img.shields.io/npm/v/@cloudcmd/node-read-files-sync.svg?style=flat
+[NPMIMGURL]:                https://img.shields.io/npm/v/@cloudcmd/read-files-sync.svg?style=flat
 [BuildStatusIMGURL]:        https://img.shields.io/travis/cloudcmd/node-read-files-sync/master.svg?style=flat
 [DependencyStatusIMGURL]:   https://img.shields.io/gemnasium/cloudcmd/node-read-files-sync.svg?style=flat
 [LicenseIMGURL]:            https://img.shields.io/badge/license-MIT-317BF9.svg?style=flat
