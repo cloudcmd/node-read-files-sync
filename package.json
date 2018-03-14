@@ -14,7 +14,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/cloudcmd/read-files-sync.git"
+    "url": "git://github.com/cloudcmd/node-read-files-sync.git"
   },
   "scripts": {
     "test": "tape test/*.js",
