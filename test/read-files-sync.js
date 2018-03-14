@@ -11,6 +11,12 @@ test('readFilesSync: args: no', (t) => {
     t.end();
 });
 
+test('readFilesSync: args: mode not string/object', (t) => {
+    const fn = () => readFilesSync('/', false);
+    t.throws(fn, /mode should be string or an object!/, 'should throw when mode not string or object');
+    t.end();
+});
+
 test('readFilesSync: result', (t) => {
     const result = readFilesSync(dirFixture);
     const expected = {
@@ -27,6 +33,16 @@ test('readFilesSync: result: mode', (t) => {
     const expected = {
         a: 'hello\n',
         b: 'world\n',
+    };
+    
+    t.deepEqual(result, expected, 'should equal');
+    t.end();
+});
+
+test('readFilesSync: result: names', (t) => {
+    const result = readFilesSync(dirFixture, ['a.txt'], 'utf8');
+    const expected = {
+        a: 'hello\n',
     };
     
     t.deepEqual(result, expected, 'should equal');

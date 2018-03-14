@@ -23,6 +23,19 @@ readFilesSync('./fixture', 'utf8');
 }
 ```
 
+## readFilesSync(path[, names, mode])
+- `path` **string** - path to a directory
+- `names` **array** - file names to read
+- `mode` **string** - mode
+
+```js
+readFilesSync('./fixture', ['a'], 'utf8');
+// returns
+{
+    a: 'hello',
+}
+```
+
 ## Related
 
 - [fs-copy-file](https://github.com/coderaiser/fs-copy-file "fs-copy-file") - Asynchronously copies src to dest.
