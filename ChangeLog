@@ -1,0 +1,8 @@
+2018.03.14, v1.1.0
+
+fix:
+- (package) repository url
+
+feature:
+- (read-file-sync) add ability to pass names
+
