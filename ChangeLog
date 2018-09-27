@@ -1,3 +1,11 @@
+2018.09.27, v2.0.0
+
+feature:
+- (package) nyc v13.0.1
+- (package) eslint v5.6.0
+- (package) drop support of node < 8
+
+
 2018.03.14, v1.1.0
 
 fix:
