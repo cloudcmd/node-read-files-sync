@@ -25,7 +25,7 @@
     "report": "nyc report --reporter=text-lcov | coveralls"
   },
   "dependencies": {
-    "currify": "^2.0.6",
+    "currify": "^3.0.0",
     "mkobject": "^1.0.2"
   },
   "license": "MIT",
