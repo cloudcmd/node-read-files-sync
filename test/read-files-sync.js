@@ -3,7 +3,7 @@
 const path = require('path');
 
 const readFilesSync = require('..');
-const test = require('tape');
+const test = require('supertape');
 const dirFixture = path.join(__dirname, 'fixture');
 
 test('readFilesSync: args: no', (t) => {
